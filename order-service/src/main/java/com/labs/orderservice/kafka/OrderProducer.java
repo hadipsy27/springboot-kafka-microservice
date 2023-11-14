@@ -23,7 +23,7 @@ public class OrderProducer {
     }
 
     public void sendMessage(OrderEvent orderEvent) {
-        LOGGER.info(String.format("Sending message %s", orderEvent));
+        LOGGER.info(String.format("Sending message %s", orderEvent.toString()));
 
         // Send message
         Message<OrderEvent> message = MessageBuilder.withPayload(orderEvent)
