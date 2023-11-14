@@ -36,6 +36,14 @@
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
+		<!--	To access Method in base domains project	-->
+		<dependency>
+			<groupId>com.labs</groupId>
+			<artifactId>base-domains</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
